@@ -1,31 +1,17 @@
 .footer_logo {
     background-color:white;
     text-align:center;
+    padding: 20px;
 }
 .footer_column {
     overflow: hidden;
     text-align: center;
     position: relative;
+    display: flex;
+    justify-content: center;
         }
-.footcol1 {
+.footcol {
     width: 20%;
-    display: inline-block;
-    vertical-align: top;
-}
-.footcol2 {
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
-}
-.footcol3 {
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
-}
-.footcol4 {
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
 }
 li {
     list-style-type: none;
@@ -34,13 +20,14 @@ li {
    }
 .social_buttons {
     text-align: center;
+    padding: 0px;
 }
 .footer_column_par {
     color: #82625E;
     font-size: 20px;
 }
 ul {
-    padding: 0px;
+    padding: 20px;
 }
 .footer_a {
     text-decoration: none;
