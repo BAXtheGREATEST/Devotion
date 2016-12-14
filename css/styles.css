@@ -1,7 +1,7 @@
 .footer_logo {
     background-color:white;
     text-align:center;
-    padding: 20px;
+    padding: 0px;
 }
 .footer_column {
     overflow: hidden;
@@ -27,9 +27,32 @@ li {
     font-size: 20px;
 }
 ul {
-    padding: 20px;
+    padding: 0px 20px;
 }
 .footer_a {
     text-decoration: none;
     color: black;
+}
+.devotion_body{
+    width: 1280px;
+}
+
+.header_logo_img {
+    padding: 0px 0;
+}
+.header_delivery_a {
+    text-decoration: none;
+    color: black;
+}
+.dev_h {
+    display: flex;
+    justify-content: flex-end;
+}
+.hd_span {
+    margin: 0;
+}
+.dev_h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
