@@ -56,3 +56,25 @@ ul {
     align-items: center;
     justify-content: space-around;
 }
+.dev_nav_menu {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #F6F6F6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 1180px;
+}
+.header_a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.dev_nav_menu_ul {
+    list-style: none;
+}
+.dev_nav_menu_ul li {
+    float: left;
+    position: relative;
+    background: #F6F6F6;
+}
