@@ -78,3 +78,9 @@ ul {
     position: relative;
     background: #F6F6F6;
 }
+.dev_nav_menu_ul li .sub-nav {
+    display: none;
+}
+.dev_nav_menu_ul li:hover .sub-nav {
+    display: block;
+}
