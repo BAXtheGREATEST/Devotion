@@ -1,7 +1,7 @@
-footer { 
-        background-color:white;
-        text-align:center;
-        padding: 20px;
+.footer_logo {
+    background-color:white;
+    text-align:center;
+    padding: 0px;
 }
 .footer_column {
     overflow: hidden;
@@ -32,4 +32,77 @@ ul {
 .footer_a {
     text-decoration: none;
     color: black;
+}
+.devotion_body{
+    width: 1280px;
+}
+
+.header_logo_img {
+    padding: 0px 0;
+}
+.header_delivery_a {
+    text-decoration: none;
+    color: black;
+}
+.dev_h {
+    display: flex;
+    justify-content: flex-end;
+}
+.hd_span {
+    margin: 0;
+}
+.dev_h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dev_nav_menu {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #F6F6F6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 1180px;
+}
+.header_a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.dev_nav_menu_ul {
+    list-style: none;
+}
+.dev_nav_menu_ul li {
+    float: left;
+    position: relative;
+    background: #F6F6F6;
+}
+.dev_nav_menu_ul li .sub-nav {
+    display: none;
+}
+.dev_nav_menu_ul li:hover .sub-nav {
+    display: block;
+}
+
+.block {
+    display: inline;
+    &-element {
+        &___modificator {
+            display: inline;
+            color: red;
+            background-color: red;
+        }
+        &___modificator-second {
+            &:hover {
+             display: inline;
+            }
+        }
+        &___modificator,
+        &___modificator-second {
+            &:hover {
+
+            }
+        }
+    }
 }
