@@ -1,86 +1,85 @@
-.footer_logo {
+.footer-logo {
     background-color:white;
     text-align:center;
     padding: 0px;
 }
-.footer_column {
+.footer-main {
     overflow: hidden;
     text-align: center;
     position: relative;
     display: flex;
     justify-content: center;
         }
-.footcol {
+.footer-main-column {
     width: 20%;
 }
-li {
+.footer-main-column__ul_li {
     list-style-type: none;
     font-size: 14px;
     padding: 5px;
    }
-.social_buttons {
+.footer-social {
     text-align: center;
     padding: 0px;
 }
-.footer_column_par {
+.footer-main-column__p {
     color: #82625E;
     font-size: 20px;
 }
-ul {
+.footer-main-column__ul {
     padding: 0px 20px;
 }
-.footer_a {
+.footer-main-column__ul_li_link {
     text-decoration: none;
     color: black;
 }
-.devotion_body{
-    width: 1280px;
-}
-
-.header_logo_img {
+.header-block-secondline-logo__img {
     padding: 0px 0;
 }
-.header_delivery_a {
+.header-block-firstline-delivery__link {
     text-decoration: none;
     color: black;
 }
-.dev_h {
+.header-block-firstline {
     display: flex;
     justify-content: flex-end;
 }
-.hd_span {
+.header-block-firstline-form-country-span__p {
     margin: 0;
 }
-.dev_h2 {
+.header-block-secondline {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.dev_nav_menu {
+.header-block-nav {
     display: flex;
     justify-content: center;
     text-decoration: none;
     background-color: #F6F6F6;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    width: 1180px;
 }
-.header_a {
+.header-block-nav__menu_li_link {
     text-decoration: none;
     padding: 20px;
     color: black;
 }
-.dev_nav_menu_ul {
+.header-block-nav__menu {
     list-style: none;
 }
-.dev_nav_menu_ul li {
+.header-block-nav__menu_li {
     float: left;
     position: relative;
     background: #F6F6F6;
 }
-.dev_nav_menu_ul li .sub-nav {
+.header-block-nav__menu_subul_li {
     display: none;
 }
-.dev_nav_menu_ul li:hover .sub-nav {
+.header-block-nav__menu_subul_li {
     display: block;
+}
+.header-block-nav__menu_subul {
+    padding: 0px 20px;
+    text-align: center;
 }
