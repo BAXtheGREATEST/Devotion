@@ -9,7 +9,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-        }
+}
 .footer-main-column {
     width: 20%;
 }
@@ -59,6 +59,7 @@
     background-color: #F6F6F6;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom: 1px solid #444;
 }
 .header-block-nav__menu_li_link {
     text-decoration: none;
@@ -73,13 +74,19 @@
     position: relative;
     background: #F6F6F6;
 }
-.header-block-nav__menu_subul_li {
-    display: none;
-}
-.header-block-nav__menu_subul_li {
-    display: block;
+.header-block-nav__menu_li:hover .header-block-nav__menu_subul {
+    border-top: 1px solid #444;
+    display: flex;
+    position: absolute;
+    top: 35px; /*первый уровень меню раскрывается вниз*/
+    left: 0;
+    list-style-type: none;
+    background: yellow;
+    padding: 0px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
 }
 .header-block-nav__menu_subul {
-    padding: 0px 20px;
-    text-align: center;
+    display: none;
 }
