@@ -90,3 +90,24 @@
 .header-block-nav__menu_subul {
     display: none;
 }
+
+.header-block {
+    width: 1280px;
+    margin: 0 auto;
+}
+.footer {
+    width: 1280px;
+    margin: 0 auto;
+}
+.header-block-secondline-search {
+    width: 400px;
+    border-bottom: 1px solid grey;
+    height: 35px;
+}
+.header-block-secondline-search__form-block__text {
+    color: grey;
+    display: inline-block;
+}
+.header-block-secondline-search__form-block__img {
+    display: inline-block;
+}
