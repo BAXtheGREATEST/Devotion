@@ -117,17 +117,26 @@
 }
 .prefooter-i {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
 }
 .prefooter-imgarrowback {
-    display: inline-block;
+    width: 15%;    
 }
 .prefooter-imgarrowforward {
-    display: inline-block;
+    width: 15%;    
 }
 .prefooter-img {
-    display: inline-block;
+    width: 15%;    
 }
 .prefooter-img__photo {
+    width: 100%;
 }
- 
+.prefooter-img__par {
+    color: #82625E;
+    text-align: left;
+}
+.prefooter-img__dis {
+    text-align: left;
+}
+
