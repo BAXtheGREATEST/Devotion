@@ -111,3 +111,23 @@
 .header-block-secondline-search__form-block__img {
     display: inline-block;
 }
+.prefooter {
+    width: 1280px;
+    margin: 0 auto;
+}
+.prefooter-i {
+    display: flex;
+    justify-content: center;
+}
+.prefooter-imgarrowback {
+    display: inline-block;
+}
+.prefooter-imgarrowforward {
+    display: inline-block;
+}
+.prefooter-img {
+    display: inline-block;
+}
+.prefooter-img__photo {
+}
+ 
